@@ -10,6 +10,7 @@ end
 
 return {
   default_prog = default_prog,
+  window_decorations = "NONE",
   hide_tab_bar_if_only_one_tab = true,
   exit_behavior = 'Close',
   window_padding = {
