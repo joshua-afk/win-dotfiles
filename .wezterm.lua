@@ -26,7 +26,8 @@ return {
   -- Fonts
   font_size   = 11,
   line_height = 1.1,
-  font        = wezterm.font('DroidSansMono Nerd Font Mono'),
-  initial_rows = 35,
-  initial_cols = 140
+  font = wezterm.font('DroidSansMono Nerd Font Mono'),
+  initial_rows = 36,
+  initial_cols = 144,
+  default_cursor_style = "SteadyUnderline",
 }
