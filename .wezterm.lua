@@ -24,10 +24,11 @@ return {
   window_background_opacity = 0.93,
 
   -- Fonts
-  font_size   = 11,
+  font_size   = 12,
   line_height = 1.1,
-  font = wezterm.font('DroidSansMono Nerd Font Mono'),
-  initial_rows = 36,
-  initial_cols = 144,
+  -- font = wezterm.font('DroidSansMono Nerd Font Mono'),
+  font = wezterm.font('Iosevka Term SS18'),
+  initial_rows = 29,
+  initial_cols = 165,
   default_cursor_style = "SteadyUnderline",
 }
